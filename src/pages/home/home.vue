@@ -2,26 +2,25 @@
     <div>
         <home-header></home-header>
         <home-swiper></home-swiper>
-        <div>{{obj[0]}}</div>
+        <home-icons></home-icons>
     </div>
 </template>
 
 <script type="text/ecmascript-6">
 import HomeHeader from './components/header'
 import HomeSwiper from './components/swiper'
+import HomeIcons from './components/icons'
 export default {
     data() {
         return {
-            obj:[1,2]
+            
         }
     },
     components:{
         HomeHeader,
-        HomeSwiper
+        HomeSwiper,
+        HomeIcons
     },
-    mounted:function(){
-        this.$set(this.obj,0,9)
-    }
 }
 </script>
 
