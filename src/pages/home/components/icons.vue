@@ -88,16 +88,19 @@ export default {
         height 0
         overflow hidden
         padding-bottom 50%
-    .icon
-        float left
-        width 25%
-        text-align center
-        padding 0 .22rem
-        .icon-img{
-            width 100%
-        }
-        p
-            line-height .44rem
-            color $darkTextColor
-            ellipsis()
+    .icons
+        margin-top .1rem
+        .icon
+            float left
+            width 25%
+            text-align center
+            padding 0 .22rem
+            box-sizing border-box
+            .icon-img{
+                width 100%
+            }
+            p
+                line-height .44rem
+                color $darkTextColor
+                ellipsis()
 </style>
